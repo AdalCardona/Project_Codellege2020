@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton { 
+    margin-left: 40px;
+    display: inline;
+    border: 1px solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: white;
+    
+}
+.boton:hover {
+    background-color: black;
+    color: white;
+}
+.menu{
+    position: fixed; top: initial;
+    padding: 0px;
+    background-color: lightblue;
+    width: 100%;
+    margin: auto;
+    border: 40px;
+}
+
+.menu li a{
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+    font-family: Verdana;
+    display: block;
+}
+.menu li{
+    text-align: center;
+    color: black;
+    display: inline-block;
+}
+
+.menu li a:hover{
+    background-color:black;
+    color: white;
+}
+.ultima_hora{
+    background-color: gray;
+    padding: 0px;
+    border: 2px solid;
+    margin: 100px;
+    height: auto;
+
+}
+.ultima_hora p{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 25px;
+}
+.menu p{
+    margin-left: 30px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+}
+.menu p a{
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+    font-family: Verdana;
+    display: inline;
+}
+.menu p a:hover{
+    background-color:black;
+    color: lightblue;
+}
