@@ -24,7 +24,11 @@ body {
     margin: auto;
     border: 40px;
 }
-
+.menu li{
+    text-align: center;
+    color: black;
+    display: inline-block;
+}
 .menu li a{
     color: black;
     padding: 30px;
@@ -32,21 +36,20 @@ body {
     font-family: Verdana;
     display: block;
 }
-.menu li{
-    text-align: center;
-    color: black;
-    display: inline-block;
-}
 
 .menu li a:hover{
     background-color:black;
     color: white;
 }
+.menu img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
 .ultima_hora{
-    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
     padding: 0px;
-    border: 2px solid;
-    margin: 100px;
+    margin: 120px;
     height: auto;
 
 }
@@ -70,5 +73,20 @@ body {
 }
 .menu p a:hover{
     background-color:black;
-    color: lightblue;
+    color: blue;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px large;
+    color: red;
+}
+.ultima_hora img{
+    float: left;
+    width: 450px;
+    height: 350px;
+    padding: 30px;
+}
+.documento{
+    word-spacing: 5px;
 }
