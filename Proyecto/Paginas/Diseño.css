@@ -72,3 +72,10 @@ body {
     background-color:black;
     color: lightblue;
 }
+#portada{
+	width:100%;
+	height:200px;
+}
+#logo{
+	float:bottom-left;
+	}
