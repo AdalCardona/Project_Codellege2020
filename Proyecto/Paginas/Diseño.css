@@ -87,6 +87,15 @@ h1{
     height: 350px;
     padding: 30px;
 }
+
 .documento{
     word-spacing: 5px;
 }
+
+#portada{
+	width:100%;
+	height:200px;
+}
+#logo{
+	float:bottom-left;
+	}
