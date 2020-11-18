@@ -1,8 +1,8 @@
 body {
     text-align: center;
-    background-color: gray;
+    background-color:white;
     font-family: Arial, Helvetica, sans-serif;
-    }
+}
 /*Boton de login*/
 .boton { 
     margin-left: 40px;
@@ -11,11 +11,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     background-color: white;
-    }
+}
 .boton:hover {
     background-color: rgba(136, 130, 130, 0.747);
     color: white;
-    }
+}
 /*Menu de inicio*/
 .menu{
 	position: sticky; top:0;
@@ -24,93 +24,96 @@ body {
     width: 100%;
     margin: auto;
     border: auto;
-    }
+}
 .menu li{
     text-align: center;
     color: black;
     display: inline-block;
     margin: auto;
-    }
+}
 .menu li a{
     color: black;
     padding: 30px;
     text-decoration: none;
     font-family: Verdana;
     display: block;
-    }
+}
 
 .menu li a:hover{
     background-color:black;
     color: white;
-    }
+}
 .menu img{
     margin-left: 80px;
     height: 100px;
     width: 110px;
     float: left;
 
-    }
+}
 /*Div de noticias de ultima hora */
 .ultima_hora{
-    display: inline;
+
+    display: inline-block;
     font-family: 'Times New Roman', Times, serif;
-    margin: 120px;
+    margin: auto;
     height: auto;
-    border-bottom: 5px solid;
+    border-bottom: 2px black solid;
 
 }
 .ultima_hora p{
     font-size: 25px;
     text-align: left;
     margin-left: 25px;
-    }
+}
 #Noticias {
     text-align: center;
     font-size: 30px;
-    }
+}
 .menu p{
     margin-left: 30px;
     text-align: center;
     color: black;
     display: inline-block;
-    }   
+}   
 .menu p a{
     color: black;
     padding: 30px;
     text-decoration: none;
     font-family: Verdana;
     display: inline;
-    }
+}
 .menu p a:hover{
     background-color:white;
     color: red;
-    }
+}
 .ultima_hora h1{
+    margin:0px;
     margin-left: 40px;
-    border-left: 3px solid;
-    padding: 20px;
+    border-left: 5px solid;
+    padding: 15px;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     color: red;
-    }
+}
 .ultima_hora img{
     float: left;
     width: 450px;
     height: 350px;
     padding: 30px;
-    }
+}
 
 .documento{
     word-spacing: 5px;
-    }
+}
 #portada{
 	width:100%;
     height:330px;
-    }
+}
 #logo{
     float:bottom-left;
-    }
+}
 #noticias_de_covid{
+    border-bottom: 2px black solid;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
@@ -120,4 +123,8 @@ body {
     float: right;
     padding: 40px;
 }
+.Recomendaciones p{
+    font-size: 30px;
+}
+
     
