@@ -28,6 +28,7 @@ body {
     text-align: center;
     color: black;
     display: inline-block;
+    margin: 10px;
 }
 .menu li a{
     color: black;
@@ -42,11 +43,16 @@ body {
     color: white;
 }
 .menu img{
+    margin-left: 80px;
+    margin-right:0px ;
     height: 100px;
-    width: 100px;
+    width: 110px;
     float: left;
+    padding: 0px;
 }
 .ultima_hora{
+    border: solid;
+    background-color: lightgray;
     font-family: 'Times New Roman', Times, serif;
     padding: 0px;
     margin: 120px;
@@ -91,7 +97,6 @@ h1{
 .documento{
     word-spacing: 5px;
 }
-
 #portada{
 	width:100%;
 	height:200px;
