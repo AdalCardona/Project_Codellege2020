@@ -17,7 +17,7 @@ body {
     color: white;
 }
 .menu{
-    position: fixed; top: initial;
+	position: sticky; top:0;
     padding: 0px;
     background-color: lightblue;
     width: 100%;
