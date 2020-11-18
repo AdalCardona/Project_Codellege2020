@@ -1,8 +1,8 @@
 body {
     text-align: center;
-    background-color: gray;
+    background-color:white;
     font-family: Arial, Helvetica, sans-serif;
-    }
+}
 /*Boton de login*/
 .boton { 
     margin-left: 40px;
@@ -11,11 +11,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     background-color: white;
-    }
+}
 .boton:hover {
     background-color: rgba(136, 130, 130, 0.747);
     color: white;
-    }
+}
 /*Menu de inicio*/
 .menu{
 	position: sticky; top:0;
@@ -48,7 +48,6 @@ body {
     height: 100px;
     width: 110px;
     float: left;
-
     }
 /*Div de noticias de ultima hora */
 .ultima_hora{
@@ -57,7 +56,6 @@ body {
     margin: 120px;
     height: auto;
     border-bottom: 5px solid;
-
 }
 .ultima_hora p{
     font-size: 25px;
@@ -73,7 +71,8 @@ body {
     text-align: center;
     color: black;
     display: inline-block;
-    }   
+
+    }
 .menu p a{
     color: black;
     padding: 30px;
@@ -111,6 +110,7 @@ body {
     float:bottom-left;
     }
 #noticias_de_covid{
+    border-bottom: 2px black solid;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
@@ -119,5 +119,8 @@ body {
     height: 400px;
     float: right;
     padding: 40px;
+}
+.Recomendaciones p{
+    font-size: 30px;
 }
     
