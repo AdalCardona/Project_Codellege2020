@@ -1,0 +1,20 @@
+.imgn{
+	float:left;
+}
+#imagen_central{
+	width:70%;
+	margin-left:50px;
+}
+
+.linea{
+	margin-left:0;
+}
+.linea > div{
+
+	background-color:black;
+	height:0.3rem;
+	width:0.4rem;
+	}
+.linea > p{
+	display:inline-block;
+}
