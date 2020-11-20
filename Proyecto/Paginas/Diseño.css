@@ -5,7 +5,8 @@ body {
 }
 /*Boton de login*/
 .boton { 
-    margin-left: 80px;
+    border-radius: 6px;
+    margin-left: 110px;
     border: 5px outset;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
@@ -45,9 +46,10 @@ body {
     color: red;
 }
 .menu img{
+    display: inline;
     float: left;
-    height: 100px;
-    width: 110px;
+    height: 75px;
+    width: 150px;
 }
 .menu p{
     text-align: center;
