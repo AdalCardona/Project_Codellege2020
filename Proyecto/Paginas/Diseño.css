@@ -1,12 +1,11 @@
 body {
     text-align: center;
-    background-color:white;
+    background-color:lightgrey;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*Boton de login*/
 .boton { 
-    margin-left: 40px;
-    display: inline;
+    margin-left: 80px;
     border: 5px outset;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
@@ -19,14 +18,15 @@ body {
 /*Menu de inicio*/
 .menu{
     position: sticky;
-    top: 0;
-    padding: 0px;
+    top:0;
     background-color:black;
     width: 100%;
     margin: auto;
-    border: auto;
+    border: 100%;
 }
 .menu li{
+    margin-left: 30px;
+    margin-right: 30px;
     text-align: center;
     color: white;
     display: inline-block;
@@ -46,12 +46,10 @@ body {
 }
 .menu img{
     float: left;
-    margin-left: 50px;
     height: 100px;
     width: 110px;
 }
 .menu p{
-    margin-left: 30px;
     text-align: center;
     display: inline-block;
 }
@@ -70,40 +68,41 @@ body {
 .noticia1{
     float: left;
     margin-left: 40px;
-    margin-top: 40px;
-    width: 350px;
-    padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+    margin-right: 20px ;
+    margin-top: 20px;
+    width: 380px;
 }
 .noticia1 p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .noticia1 img{
-    width: 350px;
+    width: 380px;
     height: 250px;
 }
 .noticia2{
     float: left;
-    margin-left: 40px;
-    margin-top: 40px;
-    width: 450px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 380px;
 }
 .noticia2 p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .noticia2 img{
-    width: 450px;
+    width: 380px;
     height: 250px;
 }
 .noticia3{
-    float: left;
-    margin-left: 40px;
-    margin-top: 50px;
+    float: right;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
     width: 280px;
-    font-family: 'Times New Roman', Times, serif;
+ 
 }    
 .noticia3 img{
     width: 280px;
@@ -141,13 +140,14 @@ body {
     color: red;
 }
 #covid1 img{
+    padding-bottom: 30px;
     float: right;
     width: 440px;
     height: 360px;
     margin: 50px;
 }
 #covid1 p{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
 }
 .covid2{
@@ -163,4 +163,18 @@ body {
 .covid2 img{
     width: 500px;
     height: 350px;
+}
+#infoCovid{
+    top:0;
+    padding: 0px;
+    background-color:red;
+    width: 100%;
+    margin: auto;
+}
+#infoCovid a{
+    margin-right: 50px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
 }
