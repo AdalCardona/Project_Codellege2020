@@ -1,20 +1,63 @@
-.imgn{
-	float:left;
+body{
+	background-color:#BDAD82;
 }
-#imagen_central{
-	width:70%;
-	margin-left:50px;
+div{
+	text-align:left;
 }
-
+/*Diseño del menu*/
+.menu{
+    position: fixed;
+    top:0px;
+    background-color:#070838;
+    width: 100%;
+    margin: auto;
+    border: 100%;
+}
+/*información covid*/
+#alert a{
+	background-color:red;
+}
+/*Subtemas*/
 .linea{
-	margin-left:0;
+    margin-left: 40px;
+    border-left: 2px solid;
+    border-left-color:#070838;
+	padding: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
-.linea > div{
 
-	background-color:black;
-	height:0.3rem;
-	width:0.4rem;
-	}
-.linea > p{
+/*noticias centrales en cada tema*/
+.imagen_central{
+	width:65%;
+	margin-left:3%;
+	text-align:left;
+	display:inline-block;
+	float:left;
+	margin-right:3%;
+}
+.imagen_central img{
+	width:100%;
+	height:300px;
+	display:inline-block;
+	position:relative;
+	left:0px;
+}
+/*position de imagenes detras del menu*/
+img{
+	z-index:-1;
+}
+/*Color de los encabezados*/
+h1, h3{
+	color:#070838;
+}
+.listado_De_Noticias img{
+	width:80px;
+	height:80px;
+	float:left
+}
+.listado_De_Noticias p{
 	display:inline-block;
 }
+
