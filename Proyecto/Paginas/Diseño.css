@@ -230,13 +230,48 @@ body {
     color: white;
 }
 #copyright{
-    background-color: black;
+    background-color: rgb(53, 53, 53);
     bottom: 0;
     height: 100px;
     width: 100%;
     display: flex;
 }
 #copyright p{
-    color: white;
+    color: rgb(128, 127, 127);
     margin-left: 500px;
 }
+.recomendaciones{
+    margin: auto;
+    width: 80%;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#parrafo1{
+    font-size: 25px;
+    color: rgb(0, 71, 179);
+}
+.lista_recom li{
+    font-size: 20px;
+    text-align: left;
+}
+.recomendaciones img{
+    width: auto;
+    height: 200px;
+}
+.dropdown {
+    width: 180px;
+    display: inline;
+}
+.drop-content{
+    background-color: white;
+    width: 190px;
+    display: none;
+}
+.drop-content p{
+    display:block ;
+    color: black;
+}
+.dropdown:hover .drop-content{
+    display:block;
+}
+
