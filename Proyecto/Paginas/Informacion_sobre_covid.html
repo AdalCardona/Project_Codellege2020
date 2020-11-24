@@ -9,13 +9,25 @@
         <div> 
             <img src="imagenes/covid2.jpg" id="portada">
         </div>
-        <ul class="menu2">
+        <ul class="menu">
             <a href="Pagina principal.html"><img src="imagenes/Logo (2).png"></a>
             <li><a href="">Clima</a></li>
             <li><a href="Deportes.html">Deportes</a></li>
             <li><a href="">Espectaculos</a></li>
             <li><a href="">Tecnologia</a></li>
-            <input type="button" class="boton" value="Login" onclick="">
+            <div id="dropdown">
+                <input type="button" id="boton" value="Login" onclick="login()">
+                <form id="drop-content">
+                    <label>Nombre de usuario:</label>
+                    <input type="text" id="nombre_usuario" placeholder="Nombre de usuario"></p>
+                    <br>
+                    <label>Correo electronico:</label>
+                    <input type="text" id="correo_usuario" placeholder="Agrega tu correo"></p>
+                    <br><br>
+                    <input type="button" class="enviar_info" value="Enviar informacion" onclick="info_login(nombre)">
+                </form>
+                <br><br>
+            </div>
         </ul>
         <div id="covid1">
             <h1>Ultimas noticias sobre Covid-19</h1>
