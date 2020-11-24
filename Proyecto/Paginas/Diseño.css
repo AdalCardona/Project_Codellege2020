@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 /*Boton de login*/
-.boton { 
+#boton { 
     border-radius: 4px;
     margin-left: 110px;
     border: 5px;
@@ -12,22 +12,20 @@ body {
     font-size: 25px;
     background-color: white;
 }
-.boton:hover {
+#boton:hover {
     background-color: rgba(136, 130, 130, 0.747);
     color: white;
 }
 /*Menu de inicio*/
 .menu{
     position: fixed;
-    top:0px;
+    top:0;
     background-color:black;
     width: 100%;
-    margin: auto;
+    margin: initial;
     border: 100%;
 }
 .menu li{
-    margin-left: 30px;
-    margin-right: 30px;
     text-align: center;
     color: white;
     display: inline-block;
@@ -258,20 +256,21 @@ body {
     width: auto;
     height: 200px;
 }
-.dropdown {
-    width: 180px;
+#dropdown {
     display: inline;
+    height: 200px;
+    width: 250px;
 }
-.drop-content{
-    background-color: white;
-    width: 190px;
+#drop-content{
+    top: 100px;
+    height: 120px;
+    width: 330px;
+    left: 1000px;
     display: none;
+    position: fixed;
+    background-color: white;
+   
 }
-.drop-content p{
-    display:block ;
-    color: black;
-}
-.dropdown:hover .drop-content{
-    display:block;
-}
+
+
 

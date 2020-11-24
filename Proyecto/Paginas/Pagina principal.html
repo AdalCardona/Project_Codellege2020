@@ -4,6 +4,7 @@
         <title>Noticias</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="Diseño.css">
+        <script src="JavaScript.js"></script>
     </head>
     <body>
         <ul class="menu">
@@ -12,14 +13,18 @@
             <li><a href="Deportes.html">Deportes</a></li>
             <li><a href="">Espectaculos</a></li>
             <li><a href="">Tecnologia</a></li>
-            <div class="dropdown">
-            <input type="button" class="boton" value="Login" onclick="login()">
-                <div class="drop-content">
-                    <p>Agrega tu nombre de usuario</p>
-                    <p type="text" id="nombre_usuario" placeholder="Nombre de ussuario"></p>
-                    <p>Agregre su correo</p>
-                    <p type="text" placeholder="Agrega tu correo"></p>
-                </div>
+            <div id="dropdown">
+                <input type="button" id="boton" value="Login" onclick="login()">
+                <form id="drop-content">
+                    <label>Nombre de usuario:</label>
+                    <input type="text" id="nombre_usuario" placeholder="Nombre de usuario"></p>
+                    <br>
+                    <label>Correo electronico:</label>
+                    <input type="text" id="correo_usuario" placeholder="Agrega tu correo"></p>
+                    <br><br>
+                    <input type="button" class="enviar_info" value="Enviar informacion" onclick="info_login(nombre)">
+                </form>
+                <br><br>
             </div>
         </ul>
         <p id="infoCovid"><a href="Informacion_sobre_covid.html" class="info">Informacion sobre Covid-19</a></p>
