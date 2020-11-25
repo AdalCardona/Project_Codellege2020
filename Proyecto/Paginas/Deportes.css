@@ -1,17 +1,19 @@
 body{
-	background-color:#BDAD82;
+	background-color:#D3DBFD;
 }
 div{
 	text-align:left;
 }
 /*Diseño del menu*/
 .menu{
+    margin-right:0;
+	text-align: center;
     position: fixed;
-    top:0px;
+    top: 0;
+    left: 0;
     background-color:#070838;
     width: 100%;
-    margin: auto;
-    border: 100%;
+    margin: initial;
 }
 /*Subtemas*/
 .linea{
@@ -29,16 +31,12 @@ div{
 	width:65%;
 	margin-left:3%;
 	text-align:left;
-	display:inline-block;
-	float:left;
 	margin-right:1%;
+	display:inline-block;
 }
 .imagen_central img{
 	width:100%;
 	height:400px;
-	display:inline-block;
-	position:relative;
-	left:0px;
 }
 /*position de imagenes detras del menu*/
 img{
@@ -56,14 +54,14 @@ h1, h3{
 	border:1px solid transparent;
 }
 .listado_De_Noticias{	
-	height:100px;
+	height:115px;
 	padding-bottom:5px;
 	border:1px solid transparent;
 	border-bottom:3px solid #070838;
 	margin-bottom:5px;
 	}
 .listado_De_Noticias img{
-	width:120px;
+	width:130px;
 	height:100%;
 	float:left;
 	margin:0;
@@ -74,4 +72,30 @@ h1, h3{
 }
 #copyright{
     background-color:#070838;
+	position: absolute;
+    left: 0;
+	display:block;
+	margin-bottom:0;
 }
+.contacto{
+	display:inline-block;
+}
+a{
+	text-decoration:none;
+}
+#copyright a:visited{
+	color:rgb(128, 127, 127);
+}
+#copyright a:hover{
+	color:white;
+}
+i{
+	display:inline-block;
+	color:rgb(128, 127, 127);
+	font-size:35px;
+	margin:0px, 2px;
+}
+i:hover{
+	color:white;
+}
+
