@@ -1,21 +1,19 @@
 body{
-	background-color:#BDAD82;
+	background-color:#D3DBFD;
 }
 div{
 	text-align:left;
 }
 /*Diseño del menu*/
 .menu{
+    margin-right:0;
+	text-align: center;
     position: fixed;
-    top:0px;
+    top: 0;
+    left: 0;
     background-color:#070838;
     width: 100%;
-    margin: auto;
-    border: 100%;
-}
-/*información covid*/
-#alert a{
-	background-color:red;
+    margin: initial;
 }
 /*Subtemas*/
 .linea{
@@ -33,16 +31,12 @@ div{
 	width:65%;
 	margin-left:3%;
 	text-align:left;
+	margin-right:1%;
 	display:inline-block;
-	float:left;
-	margin-right:3%;
 }
 .imagen_central img{
 	width:100%;
-	height:300px;
-	display:inline-block;
-	position:relative;
-	left:0px;
+	height:400px;
 }
 /*position de imagenes detras del menu*/
 img{
@@ -52,12 +46,56 @@ img{
 h1, h3{
 	color:#070838;
 }
-.listado_De_Noticias img{
-	width:80px;
-	height:80px;
-	float:left
+.listado_De_Noticias_index{
+	float:right;
+	width:30%;
+	margin-top:0;
+	padding-top:0px;
+	border:1px solid transparent;
 }
-.listado_De_Noticias p{
+.listado_De_Noticias{	
+	height:115px;
+	padding-bottom:5px;
+	border:1px solid transparent;
+	border-bottom:3px solid #070838;
+	margin-bottom:5px;
+	}
+.listado_De_Noticias img{
+	width:130px;
+	height:100%;
+	float:left;
+	margin:0;
+	margin-right:0.5%;
+}
+.listado_De_Noticias h3{
+	margin-top:0;
+}
+#copyright{
+    background-color:#070838;
+	position: absolute;
+    left: 0;
+	display:block;
+	margin-bottom:0;
+}
+.contacto{
 	display:inline-block;
+}
+a{
+	text-decoration:none;
+}
+#copyright a:visited{
+	color:rgb(128, 127, 127);
+}
+#copyright a:hover{
+	color:white;
+}
+i{
+	display:inline-block;
+	color:rgb(128, 127, 127);
+	font-size:35px;
+	margin:0px, 2px;
+}
+i:hover{
+	color:white;
 }
 
