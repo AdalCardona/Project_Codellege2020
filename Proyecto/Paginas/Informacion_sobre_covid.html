@@ -9,14 +9,14 @@
         <div> 
             <img src="imagenes/covid2.jpg" id="portada">
         </div>
-        <ul class="menu">
+        <ul class="menu2">
             <a href="Pagina principal.html"><img src="imagenes/Logo (2).png"></a>
             <li><a href="">Clima</a></li>
             <li><a href="Deportes.html">Deportes</a></li>
             <li><a href="">Espectaculos</a></li>
             <li><a href="">Tecnologia</a></li>
             <div id="dropdown">
-                <input type="button" id="boton" value="Login" onclick="login()">
+                <input type="button" id="boton1" class="boton" value="Login" onclick="login()">
                 <form id="drop-content">
                     <label>Nombre de usuario:</label>
                     <input type="text" id="nombre_usuario" placeholder="Nombre de usuario"></p>
@@ -24,13 +24,31 @@
                     <label>Correo electronico:</label>
                     <input type="text" id="correo_usuario" placeholder="Agrega tu correo"></p>
                     <br><br>
-                    <input type="button" class="enviar_info" value="Enviar informacion" onclick="info_login(nombre)">
+                    <input type="button" id="enviar_info" value="Enviar informacion" onclick="info_login()">
                 </form>
                 <br><br>
             </div>
         </ul>
+        <div class="recomendaciones">
+            <p id="parrafo1">Recomendaciones:</p>
+            <ul class="lista_recom">
+                <li>Mantener la sana distancia de 1.5 metros, lavarse las manos con agua y jabón durante 40 segundos, utilizar gel con base de alcohol al 70 por ciento varias veces al día y usar cubrebocas durante la jornada laboral, 
+                    son las principales recomendaciones para prevenir contagios de COVID-19 ante el retorno a las actividades</li>
+                <br>
+                <li>Lávate las manos con frecuencia. Usa agua y jabón o un desinfectante de manos a base de alcohol.</li>
+                <br>
+                <li>Mantén una distancia de seguridad con personas que tosan o estornuden.</li>
+                <br>
+                <li>Utiliza mascarilla cuando no sea posible mantener el distanciamiento físico.</li>
+                <br>
+                <li>Cuando tosas o estornudes, cúbrete la nariz y la boca con el codo flexionado o con un pañuelo.</li>
+                <br>
+                <li>Si no te encuentras bien, quédate en casa.</li>
+            </ul>
+            <img src="imagenes/covid_recomendaciones (2).png">
+        </div>
         <div id="covid1">
-            <h1>Ultimas noticias sobre Covid-19</h1>
+            <h1>Ultimas noticias sobre el Covid-19</h1>
             <br>
             <img src="imagenes/imagen(covid).jpeg">
             <p><b>Coronavirus</b><br>La pandemia de coronavirus continúa su expansión en diversas regiones del planeta 
@@ -51,25 +69,7 @@
                 casos por día desde el comienzo de la pandemia.</p>
             <img src="imagenes/covid3.jpg">
         </div>
-        <div class="recomendaciones">
-            <p id="parrafo1">Recomendaciones</p>
-            <ul class="lista_recom">
-                <li>Mantener la sana distancia de 1.5 metros, lavarse las manos con agua y jabón durante 40 segundos, utilizar gel con base de alcohol al 70 por ciento varias veces al día y usar cubrebocas durante la jornada laboral, 
-                    son las principales recomendaciones para prevenir contagios de COVID-19 ante el retorno a las actividades</li>
-                <br>
-                <li>Lávate las manos con frecuencia. Usa agua y jabón o un desinfectante de manos a base de alcohol.</li>
-                <br>
-                <li>Mantén una distancia de seguridad con personas que tosan o estornuden.</li>
-                <br>
-                <li>Utiliza mascarilla cuando no sea posible mantener el distanciamiento físico.</li>
-                <br>
-                <li>Cuando tosas o estornudes, cúbrete la nariz y la boca con el codo flexionado o con un pañuelo.</li>
-                <br>
-                <li>Si no te encuentras bien, quédate en casa.</li>
-            </ul>
-            <img src="imagenes/covid_recomendaciones (2).png">
-        </div>
-        <div id="copyright">
+        <div class="copyright">
             <p>Copyright © Todos los derechos reservados | CodeNews</p>
         </div>
     </body>

@@ -14,15 +14,17 @@
             <li><a href="">Espectaculos</a></li>
             <li><a href="">Tecnologia</a></li>
             <div id="dropdown">
-                <input type="button" id="boton" value="Login" onclick="login()">
+                <input type="button" id="boton1" class="boton" value="Login" onclick="login()">
                 <form id="drop-content">
                     <label>Nombre de usuario:</label>
-                    <input type="text" id="nombre_usuario" placeholder="Nombre de usuario"></p>
+                    <input type="text" id="usuario" placeholder="Nombre de usuario"></p>
                     <br>
-                    <label>Correo electronico:</label>
-                    <input type="text" id="correo_usuario" placeholder="Agrega tu correo"></p>
+                    <label>Contraseña:</label>
+                    <input type="password" id="contraseña" placeholder="Agrega tu contraseña"></p>
                     <br><br>
-                    <input type="button" class="enviar_info" value="Enviar informacion" onclick="info_login(nombre)">
+                    <div class="enviar_info">
+                        <input type="button" value="Enviar informacion" onclick="info_login()">
+                    </div>
                 </form>
                 <br><br>
             </div>
@@ -66,7 +68,7 @@
             <p>Juez rechaza prohibir a AMLO hablar sobre Gustavo Madero</p>
         </div>
         <br>
-        <div id="copyright">
+        <div class="copyright">
             <p>Copyright © Todos los derechos reservados | CodeNews</p>
         </div>
     </body>

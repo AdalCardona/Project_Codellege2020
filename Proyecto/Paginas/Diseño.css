@@ -3,21 +3,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 /*Boton de login*/
-#boton { 
-    border-radius: 4px;
-    margin-left: 200px;
-    border: 5px;
-    font-family: 'Courier New', Courier, monospace;
+.boton {
+    border-radius: 5px;
+    margin-left: 350px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px ;
     font-size: 25px;
     background-color: white;
 }
-#boton:hover {
+.boton:hover {
     background-color: rgba(136, 130, 130, 0.747);
     color: white;
 }
 /*Menu de inicio*/
 .menu{
-    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -126,7 +126,7 @@ body {
     word-spacing: 5px;
 }
 #portada{
-    margin-top:85px;
+    margin-top:70px;
 	width:100%;
     height:330px;
 }
@@ -138,6 +138,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 #covid1 h1{
+    text-align: center;
+    text-decoration-line: underline;
     color: red;
 }
 #covid1 img{
@@ -154,10 +156,10 @@ body {
     width: 500px;
 }
 .covid2{
+    text-align: center;
     margin: auto;
     width: 80%;
     padding-bottom: 50px;
-    border-bottom: 2px black solid;
     font-family: 'Times New Roman', Times, serif; 
 }
 .covid2 p{
@@ -186,12 +188,14 @@ body {
 }
 /*Menu de: informacion de covd.19*/
 .menu2{
-    text-align: center;
-    position: sticky;
-    top:0;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color:black;
     width: 100%;
+    height: 79px;
     margin: initial;
+    border: 100%;
 }
 .menu2 li{
     text-align: center;
@@ -227,21 +231,24 @@ body {
     font-family: Verdana;
     display: inline;
 }
-.menu2 p a:hover{
+.menu p a:hover{
     background-color:grey;
     color: white;
 }
-#copyright{
-    background-color: rgb(53, 53, 53);
-    height: 100px;
+.copyright{
     width: 100%;
+    height: 100px;
+    position: relative;
     display: flex;
+    background-color: rgb(78, 77, 77);
 }
-#copyright p{
-    color: rgb(128, 127, 127);
+.copyright p{
+    color: rgb(146, 145, 145);
     margin-left: 500px;
 }
 .recomendaciones{
+    border-bottom: 2px solid;
+    text-align: center;
     margin: auto;
     width: 80%;
     padding-bottom: 50px;
@@ -265,7 +272,8 @@ body {
     width: 250px;
 }
 #drop-content{
-    background-color: rgb(122, 122, 122);
+    text-align: left;
+    background-color: rgb(236, 227, 213);
     border-radius: 20px;
     border: 4px solid;
     top: 100px;
@@ -275,6 +283,6 @@ body {
     display: none;
     position: fixed;
 }
-
-
-
+.enviar_info{
+    text-align: center;
+}
