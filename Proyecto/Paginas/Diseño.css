@@ -320,3 +320,23 @@ body {
     border-radius: 9px;
     padding: 5px;
 }
+.contacto{
+	display:inline-block;
+}
+a{
+	text-decoration:none;
+}
+#copyright a:visited{
+	color:rgb(128, 127, 127);
+}
+#copyright a:hover{
+	color:white;
+}
+i{
+	display:inline-block;
+	color:rgb(128, 127, 127);
+	font-size:35px;
+	margin:0px, 2px;
+}
+i:hover{
+	color:white;
