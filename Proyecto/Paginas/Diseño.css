@@ -257,7 +257,7 @@ body {
     text-align: center;
     left: 0;
     right: 0;
-    /*top: 1250px;*/
+    top: 1250px;
     position: absolute;
     height: 130px;
     display: block;
