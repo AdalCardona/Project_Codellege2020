@@ -139,7 +139,6 @@ body {
 }
 .portada{
     position: absolute;
-    display:block;
     left: 0;
     right: 0;
     margin-top:50px;
@@ -161,20 +160,21 @@ body {
     color: red;
 }
 #covid1 img{
-    padding-bottom: 30px;
+    padding-right: 50px;
     float: right;
-    width: 440px;
-    height: 360px;
-    margin: 50px;
+    width: 340px;
+    height: 240px;
+    margin-left:100px ;
 }
 #covid1 p{
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
-    padding: 0px;
-    width: 500px;
+    padding-bottom: 30px;
+}
+#covid1 h3{
+    text-align: center;
 }
 .covid2{
-    text-align: center;
     margin: auto;
     width: 80%;
     padding-bottom: 50px;
@@ -182,10 +182,15 @@ body {
 }
 .covid2 p{
     font-size: 20px;
+    text-align: justify;
 }
 .covid2 img{
     width: 500px;
     height: 350px;
+    margin-left:300px;
+}
+.covid2 h3{
+    text-align: center;
 }
 #infoCovid{
     position: fixed;
@@ -280,6 +285,7 @@ body {
     margin-left: 500px;
 }
 .recomendaciones{
+    padding-top: 400px;
     border-bottom: 2px solid;
     text-align: center;
     margin: auto;
