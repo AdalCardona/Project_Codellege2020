@@ -15,6 +15,14 @@ body {
     background-color: rgba(136, 130, 130, 0.747);
     color: white;
 }
+.boton2{
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px ;
+    font-size: 25px;
+    background-color: white;
+}
 /*Menu de inicio*/
 .menu{
     position: fixed;
@@ -306,13 +314,14 @@ body {
     right: 0;
     top: 1250px;
     position: absolute;
-    height: 100px;
+    height: 130px;
     display: block;
     background-color: rgb(78, 77, 77);
     padding: 30px;
 }
 .copyright p{
-    color: rgb(175, 175, 175); 
+    color: rgb(175, 175, 175);
+    margin-left: 450px; 
 }
 .copyright2{
     padding: 30px;
@@ -404,4 +413,38 @@ i:hover{
     margin-top: 10px;
     margin-bottom: 0;
     padding: 0;
+}
+.contacto{
+	display:inline-block;
+}
+a{
+	text-decoration:none;
+}
+.copyright a:visited{
+	color:rgb(128, 127, 127);
+}
+.copyright a:hover{
+	color:white;
+}
+i{
+	display:inline-block;
+	color:rgb(128, 127, 127);
+	font-size:35px;
+	margin:0px, 2px;
+}
+i:hover{
+	color:white;
+}
+#copyright{
+	display:inline-block;
+	float:left;
+	margin-right:25px;
+	height:100%;
+}
+.contactanos{
+	text-align:left;
+	color:rgb(128, 127, 127);
+	}
+#enviar{
+	text-align:center;
 }
