@@ -5,7 +5,6 @@ body {
 /*Boton de login*/
 .boton {
     border-radius: 5px;
-    margin-left: 350px;
     padding: 10px;
     padding-left: 20px;
     padding-right:20px ;
@@ -27,12 +26,14 @@ body {
     border: 100%;
 }
 .menu li{
+    height: auto;
     text-align: center;
     color: white;
     display: inline-block;
     margin: auto;
 }
 .menu li a{
+    height: auto;
     color: white;
     padding: 30px;
     text-decoration: none;
@@ -41,6 +42,7 @@ body {
 }
 
 .menu li a:hover{
+    height: auto;
     background-color:grey;
 }
 .menu img{
@@ -63,6 +65,7 @@ body {
 .menu p a:hover{
     background-color:grey;
     color: white;
+    height: auto;
 }
 /*Div de noticias de ultima hora */
 .noticia1{
@@ -391,4 +394,14 @@ i{
 }
 i:hover{
     color:white;
+}
+.usuari{
+    color: rgb(255, 255, 255);
+    margin-left: 350px;
+    border-radius: 10px;
+    font-size: 40px;
+    position: initial;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
 }
