@@ -73,7 +73,6 @@ img{
 }
 .menu{
     margin-right:0;
-	text-align: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -140,7 +139,8 @@ h1, h3{
     left: 0;
     right: 0;
     position: absolute;
-    height: 130px;
+    display: block;
+	float:left;
 }
 .copyright p{
     color: rgb(146, 145, 145);
@@ -148,9 +148,7 @@ h1, h3{
 }
 .copyright{
     background-color:#480B5E;
-	position: absolute;
-    left: 0;
-	display:block;
+	height:22%;
 	margin-bottom:0;
 }
 .contacto{
@@ -173,5 +171,18 @@ i{
 }
 i:hover{
 	color:white;
+}
+#copyright{
+	display:inline-block;
+	float:left;
+	margin-right:25px;
+	height:100%;
+}
+.contactanos{
+	text-align:left;
+	color:rgb(128, 127, 127);
+	}
+#enviar{
+	text-align:center;
 }
 

@@ -25,7 +25,6 @@ div{
     position: fixed;
     top: 0;
     left: 0;
-    background-color:black;
     width: 100%;
     margin: initial;
     border: 100%;
@@ -70,7 +69,6 @@ div{
 }
 .menu{
     margin-right:0;
-	text-align: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -140,6 +138,7 @@ h1, h3{
     height: 130px;
     display: block;
     background-color: rgb(78, 77, 77);
+	float:left;
 }
 .copyright p{
     color: rgb(146, 145, 145);
@@ -150,6 +149,7 @@ h1, h3{
 	position: absolute;
     left: 0;
 	display:block;
+	height:22%;
 	margin-bottom:0;
 }
 .contacto{
@@ -172,5 +172,18 @@ i{
 }
 i:hover{
 	color:white;
+}
+#copyright{
+	display:inline-block;
+	float:left;
+	margin-right:25px;
+	height:100%;
+}
+.contactanos{
+	text-align:left;
+	color:rgb(128, 127, 127);
+	}
+#enviar{
+	text-align:center;
 }
 
