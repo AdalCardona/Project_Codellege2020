@@ -15,6 +15,7 @@
             <li><a href="">Espectaculos</a></li>
             <li><a href="Tecnologia.html">Tecnologia</a></li>
             <div id="dropdown">
+                <p id="nombre_usuario" class="usuari"></p>
                 <input type="button" id="boton1" class="boton" value="Login" onclick="login()">
                 <form id="drop-content">
                     <br>
@@ -75,11 +76,34 @@
         <br>
         <!--Copyright-->
 		<div class="copyright">
-			<p>Copyright © Todos los derechos reservados | CodeNews</p>
-			<p class="contacto">Contactanos:</p>
-			<a href="https://www.facebook.com/enespanol/"><i class="fab fa-facebook"></i></a>
-			<a href="https://www.whatsapp.com/?lang=es"><i class="fab fa-whatsapp"></i></a>
-			<a href="https://github.com/AdalCardona/Project_Codellege2020"><i class="fab fa-github-square"></i></a>
-        </div>
+			<div id="copyright">
+				<p>Copyright © Todos los derechos reservados | CodeNews</p>
+				<p class="contacto">Contactanos:</p>
+				<a href=""><i class="fab fa-facebook"></i></a>
+				<a href=""><i class="fab fa-whatsapp"></i></a>
+				<a href=""><i class="fab fa-github-square"></i></a>
+			</div>
+			<div class="contactanos">
+				<form>
+					<table>
+						<tr>
+							<td><label for="nombre">Nombre:</label></td>
+							<td><input type="text" id="nombre"/></td>
+						</tr>
+						<tr>
+							<td><label for="contraseña">Contraseña:</label></td>
+							<td><input type="password" id="Contraseña"></td>
+						</tr>
+						<tr>
+							<td><label for="comentario">Comentario</label></td>
+							<td><textarea id="Comentario" rows="4" cols="22"></textarea></td>
+						</tr>
+						<tr>
+							<td colspan="2" id="enviar"><input type="Submit" value="Enviar"/></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
     </body>
 </html>
