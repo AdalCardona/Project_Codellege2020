@@ -1,18 +1,16 @@
 body{
-	background-color:#C1C3D9;
+	background-color:#D3DBFD;
 	font-family: Arial, Helvetica, sans-serif;
 }
 div{
 	text-align:left;
 }
-img{
-	border-radius:25px;
-}	
 .documento{
     word-spacing: 5px;
 }
 .index{
 	display:block;
+	margin-bottom:5%;
 }
 /*Diseño del menu*/
 .boton {
@@ -28,7 +26,6 @@ img{
     position: fixed;
     top: 0;
     left: 0;
-    background-color:black;
     width: 100%;
     margin: initial;
     border: 100%;
@@ -76,7 +73,7 @@ img{
     position: fixed;
     top: 0;
     left: 0;
-    background-color:#480B5E;
+    background-color:#A30794;
     width: 100%;
     margin: initial;
 }
@@ -84,16 +81,16 @@ img{
 .linea{
     margin-left: 40px;
     border-left: 2px solid;
-    border-left-color:#641082;
+    border-left-color:#A30794;
 	padding: 20px;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
 
-/*noticias centrales en cada tema*/
+/*noticias de en medio en cada tema*/
 .imagen_central{
-	width:65%;
+	width:64%;
 	margin-left:3%;
 	text-align:left;
 	margin-right:1%;
@@ -107,9 +104,9 @@ img{
 img{
 	z-index:-1;
 }
-/*Color de los encabezados*/
+/*Color de los titulos*/
 h1, h3{
-	color:#480B5E;
+	color:#A30794;
 }
 .listado_De_Noticias_index{
 	float:right;
@@ -119,10 +116,10 @@ h1, h3{
 	border:1px solid transparent;
 }
 .listado_De_Noticias{	
-	height:115px;
+	height:130px;
 	padding-bottom:5px;
 	border:1px solid transparent;
-	border-bottom:3px solid #480B5E;
+	border-bottom:3px solid #A30794;
 	margin-bottom:5px;
 	}
 .listado_De_Noticias img{
@@ -139,7 +136,9 @@ h1, h3{
     left: 0;
     right: 0;
     position: absolute;
+    height: 130px;
     display: block;
+    background-color: rgb(78, 77, 77);
 	float:left;
 }
 .copyright p{
@@ -147,7 +146,10 @@ h1, h3{
     margin-left: 500px;
 }
 .copyright{
-    background-color:#480B5E;
+    background-color:#A30794;
+	position: absolute;
+    left: 0;
+	display:block;
 	height:22%;
 	margin-bottom:0;
 }
@@ -185,4 +187,3 @@ i:hover{
 #enviar{
 	text-align:center;
 }
-
