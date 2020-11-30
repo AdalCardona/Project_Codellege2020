@@ -4,28 +4,106 @@
         <title>Noticias</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="Diseño.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="JavaScript.js"></script>
     </head>
     <body>
         <ul class="menu">
-                <a href="file:///D:/Prepa%20Politecnica/Proyecto%20de%20codllegues/Project_Codellege2020/Proyecto/Paginas/Pagina%20principal.html"><img src="codenews.png"></a>
-                <li><a href="">Clima</a></li>
-                <li><a href="">Deportes</a></li>
-                <li><a href="">Espectaculos</a></li>
-                <li><a href="">Tecnologia</a></li>
-                <p><a href="">Informacion sobre Covid-19</a></p>
-                <input type="button" class="boton" value="Login" onclick="">
-            </ul>
-        <br>
-        <div class="ultima_hora">
-            <h1> Noticias de ultima hora</h1>
-            <p class="Noticias"><b>Hay dos detenidos por asesinato de alcaldesa de Jamapa, afirma Cuitláhuac García</b></p>
-            <img src="Imagen1.jpg">
-            <br>
-            <p class="documento"> El gobernador de Veracruz, Cuitláhuac García Jiménez, aseguró que ya hay dos personas detenidas que podrían estar relacionadas 
-                con el asesinato de la alcaldesa de Jamapa, Florisel Ríos Delfín, cometido el pasado 11 de noviembre. En entrevista radiofónica en Xalapa, 
-                el mandatario veracruzano indicó que en la mesa para la Coordinación Estatal para la Construcción de la Paz se dio a conocer la detención de los 
-                presuntos responsables del crimen, cometido en una comunidad del municipio de Medellín de Bravo.</p>
-            <br>
+            <a href="Pagina principal.html"><img src="imagenes/Logo (2).png"></a>
+            <li><a href="">Clima</a></li>
+            <li><a href="Deportes.html">Deportes</a></li>
+            <li><a href="">Espectaculos</a></li>
+            <li><a href="Tecnologia.html">Tecnologia</a></li>
+            <div id="dropdown">
+                <p id="nombre_usuario" class="usuari"></p>
+                <input type="button" id="boton1" class="boton" value="Login" onclick="login()">
+                <form id="drop-content">
+                    <br>
+                    <label>Usuario:</label>
+                    <br>
+                    <input type="text" id="usuario"></p>
+                    <br>
+                    <br>
+                    <label>Contraseña:</label>
+                    <br>
+                    <input type="password" id="contraseña"></p>
+                    <br><br>
+                    <div id="enviar_info">
+                        <input type="button" value="Atras" onclick="atras()">
+                        <input type="button" value="Enviar" onclick="info_login()">
+                    </div>
+                </form>
+            </div>
+        </ul>
+        <p id="infoCovid"><a href="Informacion_sobre_covid.html" class="info">Informacion sobre Covid-19</a></p>
+        <br><br><br><br><br>
+        <h1 id="ultimasNoticias"> Noticias de ultima hora</h1>
+        <div class="noticia1">
+            <a href="https://elpais.com/noticias/paginas-web/"><img src="imagenes/Imagen1.jpg"></a>
+            <p id="imagenes/Noticias">Hay dos detenidos por asesinato de alcaldesa de Jamapa, afirma Cuitláhuac García</p>
+            <div class="noticia5">
+                <a href="https://elpais.com/noticias/paginas-web/"><img src="imagenes/noticia5.jpeg"></a>
+                <p>AMLO niega amenza de expulsar a afentes de la DEA</p>
+            </div>
+            <div>
+                <a href="https://elpais.com/noticias/paginas-web/"><img src="imagenes/notica8.jpg"></a>
+                <p>Anuncia abogado que Rosario Robles irá contra Videgaray y exonera a Peña
+                </p>
+            </div>
         </div>
+        <div class="noticia2"> 
+            <a href="https://elpais.com/noticias/paginas-web/"><img src="imagenes/noticia2.jpg"></a>
+            <p>Desestiman los cargos contra Salvador Cienfuegos por corrupcion</p>
+            <div class="noticia6">
+                <a href="https://elpais.com/noticias/paginas-web/"><img src="imagenes/noticia6.png"></a>
+                <p>Senado aprueba en lo general despenalizacion del uso ludico de la marihuana</p>
+            </div>
+            <div>
+                <a href="https://elpais.com/noticias/paginas-web/"><img src="imagenes/noticia9.jpg"></a>
+                <p>Artífice de una oposición progresista, con alternativas al neoliberalismo</p>
+            </div>
+            </div>
+         <div class="noticia3">
+            <a href="https://www.eluniversal.com.mx/"><img src="imagenes/noticia3.jpg"></a>
+            <p>Su decicion retrasa la transacion<br>A esto de enfrenta</p>
+            <a href="https://www.eluniversal.com.mx/"><img src="imagenes/noticia4.jpg"></a>
+            <p>"Tengan confianza", pide AMLO a ciudadanos tras regreso de Cienfuegos</p>
+            <a href="https://www.eluniversal.com.mx/"><img src="imagenes/noticia7.png"></a>
+            <p>La DEA coloca a Caro Quintero en el primer lugar de su lista de los mas buscados</p>
+            <a href="https://www.eluniversal.com.mx/"><img src="imagenes/noticia10.jpg"></a>
+            <p>Juez rechaza prohibir a AMLO hablar sobre Gustavo Madero</p>
+        </div>
+        <br>
+        <!--Copyright-->
+		<div class="copyright">
+			<div id="copyright">
+				<p>Copyright © Todos los derechos reservados | CodeNews</p>
+				<p class="contacto">Contactanos:</p>
+				<a href=""><i class="fab fa-facebook"></i></a>
+				<a href=""><i class="fab fa-whatsapp"></i></a>
+				<a href=""><i class="fab fa-github-square"></i></a>
+			</div>
+			<div class="contactanos">
+				<form>
+					<table>
+						<tr>
+							<td><label for="nombre">Nombre:</label></td>
+							<td><input type="text" id="nombre"/></td>
+						</tr>
+						<tr>
+							<td><label for="contraseña">Contraseña:</label></td>
+							<td><input type="password" id="Contraseña"></td>
+						</tr>
+						<tr>
+							<td><label for="comentario">Comentario</label></td>
+							<td><textarea id="Comentario" rows="4" cols="22"></textarea></td>
+						</tr>
+						<tr>
+							<td colspan="2" id="enviar"><input type="Submit" value="Enviar"/></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
     </body>
 </html>
