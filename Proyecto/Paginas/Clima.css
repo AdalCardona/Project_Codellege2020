@@ -47,7 +47,8 @@ img{
 
 .menu li a:hover{
     height: auto;
-    background-color:grey;
+    background-color:#26FF00;
+	color:black;
 }
 .menu img{
     display: inline;
@@ -169,7 +170,7 @@ img{
     padding: 30px;
 }
 .copyright p{
-    color: rgb(175, 175, 175);
+    color:#26FF00;
     margin-left: 450px; 
 }
 .contacto{
@@ -179,19 +180,19 @@ a{
 	text-decoration:none;
 }
 #copyright a:visited{
-	color:rgb(128, 127, 127);
+	color:#26FF00;
 }
 #copyright a:hover{
-	color:white;
+	color:#26FF00;
 }
 i{
 	display:inline-block;
-	color:rgb(128, 127, 127);
+	color:#26FF00;
 	font-size:35px;
 	margin:0px, 2px;
 }
 i:hover{
-    color:white;
+    color:rgb(128, 127, 127);
 }
 .usuari{
     color: rgb(255, 255, 255);
@@ -210,14 +211,14 @@ a{
 	text-decoration:none;
 }
 .copyright a:visited{
-	color:rgb(128, 127, 127);
+	color:white;
 }
 .copyright a:hover{
-	color:white;
+	color:rgb(255, 255, 255);
 }
 i{
 	display:inline-block;
-	color:rgb(128, 127, 127);
+	color:#26FF00;
 	font-size:35px;
 	margin:0px, 2px;
 }
@@ -227,12 +228,12 @@ i:hover{
 #copyright{
 	display:inline-block;
 	float:left;
-	margin-right:25px;
+	margin-right:100px;
 	height:100%;
 }
 .contactanos{
 	text-align:left;
-	color:rgb(128, 127, 127);
+	color:#26FF00;
 	}
 #enviar{
 	text-align:center;

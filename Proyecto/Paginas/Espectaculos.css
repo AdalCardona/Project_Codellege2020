@@ -132,27 +132,24 @@ h1, h3{
 .listado_De_Noticias h3{
 	margin-top:0;
 }
+.contactanos{
+	text-align:left;
+	color:rgb(128, 127, 127);
+	}
 .copyright{
+    text-align: center;
     left: 0;
     right: 0;
     position: absolute;
-    height: 130px;
     display: block;
-    background-color: rgb(78, 77, 77);
-	float:left;
+    padding: 30px;
+	background-color:#A30794;
 }
 .copyright p{
-    color: rgb(146, 145, 145);
-    margin-left: 500px;
+    color: black;
+    margin-left: 450px; 
 }
-.copyright{
-    background-color:#A30794;
-	position: absolute;
-    left: 0;
-	display:block;
-	height:22%;
-	margin-bottom:0;
-}
+
 .contacto{
 	display:inline-block;
 }
@@ -160,14 +157,14 @@ a{
 	text-decoration:none;
 }
 .copyright a:visited{
-	color:rgb(128, 127, 127);
+	color:#A30794;
 }
 .copyright a:hover{
 	color:white;
 }
 i{
 	display:inline-block;
-	color:rgb(128, 127, 127);
+	color:black;
 	font-size:35px;
 	margin:0px, 2px;
 }
@@ -177,12 +174,12 @@ i:hover{
 #copyright{
 	display:inline-block;
 	float:left;
-	margin-right:25px;
+	margin-right:100px;
 	height:100%;
 }
 .contactanos{
 	text-align:left;
-	color:rgb(128, 127, 127);
+	color:black;
 	}
 #enviar{
 	text-align:center;

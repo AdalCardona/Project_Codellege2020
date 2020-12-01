@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="Diseño.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script src="JavaScript.js"></script>
+		<script src="objeto.js"></script>
     </head>
     <body>
         <ul class="menu">
@@ -91,15 +92,15 @@
 							<td><input type="text" id="nombre"/></td>
 						</tr>
 						<tr>
-							<td><label for="contraseña">Contraseña:</label></td>
-							<td><input type="password" id="Contraseña"></td>
+							<td><label for="email">Email:</label></td>
+							<td><input type="text" id="email"></td>
 						</tr>
 						<tr>
 							<td><label for="comentario">Comentario</label></td>
-							<td><textarea id="Comentario" rows="4" cols="22"></textarea></td>
+							<td><textarea id="comentario" rows="4" cols="22"></textarea></td>
 						</tr>
 						<tr>
-							<td colspan="2" id="enviar"><input type="Submit" value="Enviar"/></td>
+							<td colspan="2" id="enviar"><input type="button" value="Enviar" onclick="objeto()"/></td>
 						</tr>
 					</table>
 				</form>
