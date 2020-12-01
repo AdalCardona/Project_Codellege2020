@@ -335,18 +335,17 @@ body {
 }
 /*Copyrigth de info de covid*/
 .copyright2{
-    padding: 30px;
+   text-align: center;
     left: 0;
     right: 0;
-    top: 2200px;
-    height: 100px;
-    text-align: center;
     position: absolute;
     display: block;
+    padding: 30px;
     background-color: rgb(78, 77, 77);
 }
 .copyright2 p{
     color: rgb(161, 161, 161);
+	margin-left: 450px; 
 }
 .recomendaciones{
     padding-top: 400px;
