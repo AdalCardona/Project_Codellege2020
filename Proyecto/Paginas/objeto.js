@@ -3,7 +3,11 @@ function objeto(){
 	ema=document.getElementById("email").value;
 	com=document.getElementById("comentario").value;
 	
-	obje=[nom,ema,com];
+	obje={
+		Nombre:nom,
+		Email:ema,
+		Comentario:com
+		};
 	
 	console.log(obje);
 }
